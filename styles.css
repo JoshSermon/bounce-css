@@ -7,10 +7,45 @@ body {
   justify-content: center;
   font-family: Helvetica, sans-serif;
   background-color: #000000;
+  color: #ffffff;
 }
 
-.box {
-  width: 250px;
+.text {
+  width: 10%;
+  height: 52%;
+  position: absolute;
+}
+.dot {
+  width: 150px;
   height: 150px;
-  background-color: #14213d;
+  background-color: #002855;
+  margin: 50px auto;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.text:hover {
+  animation: bounce 1s linear;
+}
+
+.dot:hover {
+  animation: bounce 1s linear;
+}
+
+@keyframes bounce {
+  10%,
+  50%,
+  80%,
+  to {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  70% {
+    transform: translateY(-30px);
+  }
+  90% {
+    transform: translateY(-30px);
+  }
 }
