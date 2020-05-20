@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Helvetica, sans-serif;
+  background-color: #000000;
+}
+
+.box {
+  width: 250px;
+  height: 150px;
+  background-color: #14213d;
+}
